@@ -7,8 +7,22 @@ body {
 }
 
 /* Heading styles */
+.header-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.meta-right {
+  text-align: right;
+  padding-top: 6px;
+}
+
 h2 {
-  color: #d62728;
+  color: #279fd6;
 }
 
 h3 {
