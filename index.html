@@ -1,33 +1,173 @@
-<!DOCTYPE html>                      <!-- Declares this is an HTML5 document -->
-<html lang="en">                     <!-- Root element, lang="en" specifies English language -->
-<head>                               <!-- Contains metadata about the page (not visible) -->
-  <meta charset="UTF-8">             <!-- Sets character encoding for special characters -->
-  <title>Module 1</title>            <!-- Title that appears in browser tab -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">  <!-- Load Google Fonts -->
-  <link rel="stylesheet" href="style.css">  <!-- Links to our CSS file for styling -->
-</head>
-<body>                               <!-- Contains all visible content on the page -->
-  <header>                           <!-- Header section for navigation/branding -->
-    <div class="left">Columbia GSAPP</div>  <!-- Left side of header with institution name -->
-    <div class="center">             <!-- Center section of header -->
-      Computational Design Practices<br>    <!-- Main title with line break -->
-      <span>Project Archive</span>   <!-- Subtitle in smaller text -->
-    </div>
-    <div class="right"><a href="#">About</a></div>  <!-- Right side with navigation link -->
-  </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Precedent Study – p5.js</title>
 
-  <main>                             <!-- Main content area of the page -->
-    <div class="project-meta">2025</div>     <!-- Project year/date -->
-    <div class="project-title">Project Title</div>  <!-- Main project title -->
-    <div class="project-subtitle">Student Name</div>  <!-- Student name as subtitle -->
-    
-    <!-- Content sections -->
-    <div class="section-title">Interactive Demo</div>  <!-- Section heading -->
-    <p>Click the button below to see JavaScript in action:</p>  <!-- Instructions for user -->
-    <button id="demoButton">Click Me!</button>  <!-- Interactive button with unique ID -->
-    <div id="messageDisplay"></div>  <!-- Empty container for JavaScript to fill with messages -->
-  </main>
-  
-  <script src="script.js"></script>  <!-- Links to our JavaScript file for interactivity -->
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <button id="print-btn">Print / Save as PDF</button>
+
+  <h2>Precedent Study – p5.js</h2>
+  <p><strong>Columbia University GSAPP CDP<br>ARCHA4144 Methods as Practices</strong></p>
+
+  <div class="section">
+    <h3>Data Collection</h3>
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Year</th>
+        <th>Format</th>
+        <th>Audience</th>
+        <th>Source</th>
+      </tr>
+      <tr>
+        <td>p5.js: A JavaScript Library for Creative Coding</td>
+        <td>Lauren Lee McCarthy</td>
+        <td>2014–Present</td>
+        <td>Software Platform / Web Tool</td>
+        <td>Artists, Students, Educators, Coders</td>
+        <td><a href="https://p5js.org">p5js.org</a></td>
+      </tr>
+      <tr>
+        <td>Lauren Lee McCarthy on Software & Values</td>
+        <td>Le Random</td>
+        <td>2023</td>
+        <td>Interview</td>
+        <td>Designers, Technologists</td>
+        <td><a href="https://www.lerandom.art/editorial/lauren-lee-mccarthy-on-software-values">Le Random</a></td>
+      </tr>
+      <tr>
+        <td>Introduction to Computational Media</td>
+        <td>Lauren Lee McCarthy</td>
+        <td>2020</td>
+        <td>Curriculum</td>
+        <td>Design & CS Students</td>
+        <td><a href="https://get-lauren.net/Introduction-to-Computational-Media">get-lauren.net</a></td>
+      </tr>
+      <tr>
+        <td>Stanford HAI Interview</td>
+        <td>Stanford Arts</td>
+        <td>2023</td>
+        <td>Artist Talk</td>
+        <td>Human-AI Researchers, Artists</td>
+        <td><a href="https://arts.stanford.edu/full-interview-with-lauren-lee-mccarthy-visiting-artist-at-stanfords-institute-for-human-centered-artificial-intelligence/">Stanford HAI</a></td>
+      </tr>
+      <tr>
+        <td>A Feminist Approach to Software</td>
+        <td>Lauren Lee McCarthy</td>
+        <td>2016</td>
+        <td>Festival Talk (Video)</td>
+        <td>Artists, Feminist Scholars</td>
+        <td><a href="https://www.youtube.com/watch?v=pehTCyESKp8">YouTube</a></td>
+      </tr>
+      <tr>
+        <td>Lauren Lee McCarthy: p5.js Overview</td>
+        <td>Lauren Lee McCarthy</td>
+        <td>2020</td>
+        <td>Video Lecture</td>
+        <td>Creative Coders</td>
+        <td><a href="https://www.youtube.com/watch?v=vzoSu88jfG0">YouTube</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h3>Appraisals by Artists</h3>
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Year</th>
+        <th>Format</th>
+        <th>Audience</th>
+        <th>Source</th>
+      </tr>
+      <tr>
+        <td>Poetic Computation Reader (p5.js Chapter)</td>
+        <td>Taeyoon Choi</td>
+        <td>2019</td>
+        <td>Book Chapter</td>
+        <td>Artists, Educators</td>
+        <td><a href="https://taeyoonchoi.com/poetic-computation/poetic-computation-reader/">Poetic Computation</a></td>
+      </tr>
+      <tr>
+        <td>p5.js Community Values Talk</td>
+        <td>Taeyoon Choi</td>
+        <td>2021</td>
+        <td>Conference Talk</td>
+        <td>Creative Coding Community</td>
+        <td><a href="http://opentranscripts.org/transcript/taeyoon-choi-p5jscon/">Open Transcripts</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h3>Criticisms</h3>
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Year</th>
+        <th>Format</th>
+        <th>Audience</th>
+        <th>Source</th>
+      </tr>
+      <tr>
+        <td>Week 3: p5.js and Access</td>
+        <td>Critical Code Studies WG</td>
+        <td>2021</td>
+        <td>Forum Discussion</td>
+        <td>HCI, Accessibility Researchers</td>
+        <td><a href="https://wg.criticalcodestudies.com/index.php?p=%2Fdiscussion%2F120%2Fweek-3-p5-js-and-access-discussion-starter">CCS</a></td>
+      </tr>
+      <tr>
+        <td>Creative Coding on the Web in p5.js</td>
+        <td>Sara Rafatabadi</td>
+        <td>2024</td>
+        <td>Master’s Thesis</td>
+        <td>Educators, Web Devs</td>
+        <td><a href="https://www.diva-portal.org/smash/get/diva2%3A1319386/FULLTEXT01.pdf">DiVA Portal</a></td>
+      </tr>
+      <tr>
+        <td>Is p5.js Respected?</td>
+        <td>Reddit Users</td>
+        <td>2018</td>
+        <td>Forum Thread</td>
+        <td>Web Developers</td>
+        <td><a href="https://www.reddit.com/r/webdev/comments/ady3xq/is_p5js_respected/">Reddit</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h3>Community Engagement</h3>
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Year</th>
+        <th>Format</th>
+        <th>Audience</th>
+        <th>Source</th>
+      </tr>
+      <tr>
+        <td>Creative Coding Tools in JavaScript</td>
+        <td>CreativeApplications.Net</td>
+        <td>2020</td>
+        <td>Web Article Series</td>
+        <td>Artists, Technologists</td>
+        <td><a href="https://www.creativeapplications.net/tools/JavaScript/page/3/">Creative Apps</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
 </body>
 </html>
