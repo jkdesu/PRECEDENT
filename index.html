@@ -4,176 +4,302 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Precedent Study – p5.js</title>
-
-  <!-- Link to external stylesheet -->
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <h1>Precedent Study</h1>
+        <span class="subtitle">p5.js Analysis</span>
+      </div>
+      <div class="nav-links">
+        <a href="#data-collection" class="nav-link">Data Collection</a>
+        <a href="#layers-analysis" class="nav-link">Layers of Analysis</a>
+        <a href="#final-submission" class="nav-link">Final Submission</a>
+      </div>
+    </div>
+  </nav>
 
-  <button id="print-btn">Print / Save as PDF</button>
+  <!-- Header -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h2>Columbia University GSAPP CDP</h2>
+        <h3>Methods as Practices</h3>
+        <p class="hero-description">A comprehensive analysis of p5.js as a creative coding platform</p>
+        <div class="hero-meta">
+          <span class="year">2025</span>
+          <span class="author">Precedent Study</span>
+        </div>
+      </div>
+    </div>
+  </header>
 
-  <div class="header-meta">
-  <div class="meta-left">
-    <h2 style="margin: 0; color: #279fd6;">Precedent Study – p5.js</h2>
-    <p><strong>Columbia University GSAPP CDP<br>Methods as Practices</strong></p>
-  </div>
-  <div class="meta-right">
-    2025
-  </div>
-</div>
-  <div class="section">
-    <h3>Data Collection</h3>
-    <table>
-      <tr>
-        <th>Title</th>
-        <th>Author</th>
-        <th>Year</th>
-        <th>Format</th>
-        <th>Audience</th>
-        <th>Source</th>
-      </tr>
-      <tr>
-        <td>p5.js: A JavaScript Library for Creative Coding</td>
-        <td>Lauren Lee McCarthy</td>
-        <td>2014–Present</td>
-        <td>Software Platform / Web Tool</td>
-        <td>Artists, Students, Educators, Coders</td>
-        <td><a href="https://p5js.org">p5js.org</a></td>
-      </tr>
-      <tr>
-        <td>Lauren Lee McCarthy on Software & Values</td>
-        <td>Le Random</td>
-        <td>2023</td>
-        <td>Interview</td>
-        <td>Designers, Technologists</td>
-        <td><a href="https://www.lerandom.art/editorial/lauren-lee-mccarthy-on-software-values">Le Random</a></td>
-      </tr>
-      <tr>
-        <td>Introduction to Computational Media</td>
-        <td>Lauren Lee McCarthy</td>
-        <td>2020</td>
-        <td>Curriculum</td>
-        <td>Design & CS Students</td>
-        <td><a href="https://get-lauren.net/Introduction-to-Computational-Media">get-lauren.net</a></td>
-      </tr>
-      <tr>
-        <td>Stanford HAI Interview</td>
-        <td>Stanford Arts</td>
-        <td>2023</td>
-        <td>Artist Talk</td>
-        <td>Human-AI Researchers, Artists</td>
-        <td><a href="https://arts.stanford.edu/full-interview-with-lauren-lee-mccarthy-visiting-artist-at-stanfords-institute-for-human-centered-artificial-intelligence/">Stanford HAI</a></td>
-      </tr>
-      <tr>
-        <td>A Feminist Approach to Software</td>
-        <td>Lauren Lee McCarthy</td>
-        <td>2016</td>
-        <td>Festival Talk (Video)</td>
-        <td>Artists, Feminist Scholars</td>
-        <td><a href="https://www.youtube.com/watch?v=pehTCyESKp8">YouTube</a></td>
-      </tr>
-      <tr>
-        <td>Lauren Lee McCarthy: p5.js Overview</td>
-        <td>Lauren Lee McCarthy</td>
-        <td>2020</td>
-        <td>Video Lecture</td>
-        <td>Creative Coders</td>
-        <td><a href="https://www.youtube.com/watch?v=vzoSu88jfG0">YouTube</a></td>
-      </tr>
-    </table>
-  </div>
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      
+      <!-- Section 1: Data Collection -->
+      <section id="data-collection" class="section">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="section-number">01</span>
+            Data Collection
+          </h2>
+          <p class="section-description">All sources used for this precedent study, organized for clarity and reference.</p>
+        </div>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Year</th>
+                <th>Format</th>
+                <th>Audience</th>
+                <th>Source</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>p5.js: A JavaScript Library for Creative Coding</td>
+                <td>Lauren Lee McCarthy</td>
+                <td>2014–Present</td>
+                <td>Software Platform / Web Tool</td>
+                <td>Artists, Students, Educators, Coders</td>
+                <td><a href="https://p5js.org" target="_blank">p5js.org</a></td>
+              </tr>
+              <tr>
+                <td>Lauren Lee McCarthy on Software & Values</td>
+                <td>Le Random</td>
+                <td>2023</td>
+                <td>Interview</td>
+                <td>Designers, Technologists</td>
+                <td><a href="https://www.lerandom.art/editorial/lauren-lee-mccarthy-on-software-values" target="_blank">Le Random</a></td>
+              </tr>
+              <tr>
+                <td>Introduction to Computational Media</td>
+                <td>Lauren Lee McCarthy</td>
+                <td>2020</td>
+                <td>Curriculum</td>
+                <td>Design & CS Students</td>
+                <td><a href="https://get-lauren.net/Introduction-to-Computational-Media" target="_blank">get-lauren.net</a></td>
+              </tr>
+              <tr>
+                <td>Stanford HAI Interview</td>
+                <td>Stanford Arts</td>
+                <td>2023</td>
+                <td>Artist Talk</td>
+                <td>Human-AI Researchers, Artists</td>
+                <td><a href="https://arts.stanford.edu/full-interview-with-lauren-lee-mccarthy-visiting-artist-at-stanfords-institute-for-human-centered-artificial-intelligence/" target="_blank">Stanford HAI</a></td>
+              </tr>
+              <tr>
+                <td>A Feminist Approach to Software</td>
+                <td>Lauren Lee McCarthy</td>
+                <td>2016</td>
+                <td>Festival Talk (Video)</td>
+                <td>Artists, Feminist Scholars</td>
+                <td><a href="https://www.youtube.com/watch?v=pehTCyESKp8" target="_blank">YouTube</a></td>
+              </tr>
+              <tr>
+                <td>Lauren Lee McCarthy: p5.js Overview</td>
+                <td>Lauren Lee McCarthy</td>
+                <td>2020</td>
+                <td>Video Lecture</td>
+                <td>Creative Coders</td>
+                <td><a href="https://www.youtube.com/watch?v=vzoSu88jfG0" target="_blank">YouTube</a></td>
+              </tr>
+              <tr>
+                <td>Poetic Computation Reader (p5.js Chapter)</td>
+                <td>Taeyoon Choi</td>
+                <td>2019</td>
+                <td>Book Chapter</td>
+                <td>Artists, Educators</td>
+                <td><a href="https://taeyoonchoi.com/poetic-computation/poetic-computation-reader/" target="_blank">Poetic Computation</a></td>
+              </tr>
+              <tr>
+                <td>p5.js Community Values Talk</td>
+                <td>Taeyoon Choi</td>
+                <td>2021</td>
+                <td>Conference Talk</td>
+                <td>Creative Coding Community</td>
+                <td><a href="http://opentranscripts.org/transcript/taeyoon-choi-p5jscon/" target="_blank">Open Transcripts</a></td>
+              </tr>
+              <tr>
+                <td>Week 3: p5.js and Access</td>
+                <td>Critical Code Studies WG</td>
+                <td>2021</td>
+                <td>Forum Discussion</td>
+                <td>HCI, Accessibility Researchers</td>
+                <td><a href="https://wg.criticalcodestudies.com/index.php?p=%2Fdiscussion%2F120%2Fweek-3-p5-js-and-access-discussion-starter" target="_blank">CCS</a></td>
+              </tr>
+              <tr>
+                <td>Creative Coding on the Web in p5.js</td>
+                <td>Sara Rafatabadi</td>
+                <td>2024</td>
+                <td>Master’s Thesis</td>
+                <td>Educators, Web Devs</td>
+                <td><a href="https://www.diva-portal.org/smash/get/diva2%3A1319386/FULLTEXT01.pdf" target="_blank">DiVA Portal</a></td>
+              </tr>
+              <tr>
+                <td>Is p5.js Respected?</td>
+                <td>Reddit Users</td>
+                <td>2018</td>
+                <td>Forum Thread</td>
+                <td>Web Developers</td>
+                <td><a href="https://www.reddit.com/r/webdev/comments/ady3xq/is_p5js_respected/" target="_blank">Reddit</a></td>
+              </tr>
+              <tr>
+                <td>Creative Coding Tools in JavaScript</td>
+                <td>CreativeApplications.Net</td>
+                <td>2020</td>
+                <td>Web Article Series</td>
+                <td>Artists, Technologists</td>
+                <td><a href="https://www.creativeapplications.net/tools/JavaScript/page/3/" target="_blank">Creative Apps</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-  <div class="section">
-    <h3>Appraisals by Artists</h3>
-    <table>
-      <tr>
-        <th>Title</th>
-        <th>Author</th>
-        <th>Year</th>
-        <th>Format</th>
-        <th>Audience</th>
-        <th>Source</th>
-      </tr>
-      <tr>
-        <td>Poetic Computation Reader (p5.js Chapter)</td>
-        <td>Taeyoon Choi</td>
-        <td>2019</td>
-        <td>Book Chapter</td>
-        <td>Artists, Educators</td>
-        <td><a href="https://taeyoonchoi.com/poetic-computation/poetic-computation-reader/">Poetic Computation</a></td>
-      </tr>
-      <tr>
-        <td>p5.js Community Values Talk</td>
-        <td>Taeyoon Choi</td>
-        <td>2021</td>
-        <td>Conference Talk</td>
-        <td>Creative Coding Community</td>
-        <td><a href="http://opentranscripts.org/transcript/taeyoon-choi-p5jscon/">Open Transcripts</a></td>
-      </tr>
-    </table>
-  </div>
+      <!-- Section 2: Layers of Analysis -->
+      <section id="layers-analysis" class="section">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="section-number">02</span>
+            Layers of Analysis
+          </h2>
+          <p class="section-description">Three key analytical perspectives on p5.js</p>
+        </div>
+        <div class="findings-grid analysis-cards-grid">
+          <div class="finding-item analysis-card-item">
+            <h5>Accessibility Focus</h5>
+            <p>p5.js demonstrates a strong commitment to making creative coding accessible to diverse audiences, particularly through its feminist approach to software design.</p>
+          </div>
+          <div class="finding-item analysis-card-item">
+            <h5>Community-Driven</h5>
+            <p>The platform's success is largely attributed to its open-source nature and strong community engagement, fostering collaboration and knowledge sharing.</p>
+          </div>
+          <div class="finding-item analysis-card-item">
+            <h5>Educational Impact</h5>
+            <p>p5.js has become a cornerstone in creative coding education, bridging the gap between art and technology for students and educators worldwide.</p>
+          </div>
+        </div>
+        <div class="analysis-details">
+          <div class="analysis-block">
+            <h3 class="analysis-title">Ontological Analysis</h3>
+            <p><strong>What exists in the project? What are all its components and building blocks laid out?</strong></p>
+            <ul>
+              <li><strong>Core Codebase:</strong> A browser-based library written in JavaScript, enabling users to draw, animate, and create interactive visuals with simple syntax.</li>
+              <li><strong>Sketch Metaphor:</strong> The foundational metaphor of p5.js is that of a sketchbook—each program (or “sketch”) is a visual experiment, reinforcing iterative, playful, and non-expert-friendly creation.</li>
+              <li><strong>Community Infrastructure:</strong> Includes extensive documentation, a contributor network, multilingual support, and built-in accessibility (e.g., screen-reader compatibility).</li>
+              <li><strong>Inclusive Design:</strong> The software isn’t neutral—it is intentionally built around accessibility, feminist values, and community participation. Its API choices, documentation tone, and onboarding process reflect this ethos.</li>
+              <li><strong>Non-commercial Intent:</strong> p5.js is free and open-source. There’s no monetization layer—Lauren Lee McCarthy and the team behind it contribute labor voluntarily or through grant-supported institutions.</li>
+              <li><strong>Cultural Infrastructure:</strong> It's supported by and extends from the Processing Foundation and its history of toolmaking for creative expression.</li>
+            </ul>
+            <p>Fundamentally, p5.js is not just code—it’s a framework for rethinking who gets to code, how, and why.</p>
+          </div>
+          <div class="analysis-block">
+            <h3 class="analysis-title">Historical and Contextual Analysis</h3>
+            <p><strong>What was the (historical) context at the time of its making and what was the author responding to/questioning/seeking?</strong></p>
+            <ul>
+              <li><strong>Lack of Representation:</strong> Lauren Lee McCarthy saw that women, people of color, and people with disabilities were consistently underrepresented in creative coding spaces. Unlike tools that treat diversity as an afterthought, p5.js was built from the ground up with equity in mind.</li>
+              <li><strong>Dominance of Corporate Tech Culture:</strong> Most software is shaped by western, male, Silicon Valley engineers. McCarthy challenged the idea that tools should be optimized only for speed or efficiency—instead prioritizing care, softness, and accessibility.</li>
+              <li><strong>Response to Processing:</strong> While p5.js grew from the Processing project (also meant for visual code-based experimentation), p5.js made a decisive leap into web-based, inclusive, and explicitly political toolmaking.</li>
+              <li><strong>Educational Context:</strong> The library was released in a moment where STEM-to-STEAM (adding art to science/tech/math) education was gaining momentum. p5.js became an important bridge, especially in K–12 and university classrooms around the world.</li>
+              <li><strong>Community-first Philosophy:</strong> In contrast to capitalist narratives of “innovation,” p5.js centers slow growth, translation efforts, consent-based participation, and open collaboration.</li>
+            </ul>
+            <p>McCarthy and her collaborators weren’t just making a tool—they were rethinking what creative freedom and inclusivity could look like in code.</p>
+          </div>
+          <div class="analysis-block">
+            <h3 class="analysis-title">Visual and Aesthetic Representation</h3>
+            <p><strong>How does the project use a visual language to communicate and build its argument? Does the representational style situate it within a particular community?</strong></p>
+            <ul>
+              <li><strong>Soft Aesthetics:</strong> The p5.js website uses soft colors, open typography, and hand-drawn visuals. This contrasts the dark themes, rigid grids, and hierarchical tone found in many tech tools.</li>
+              <li><strong>Sketchbook Metaphor:</strong> The sketch-oriented design encourages “unfinishedness” and play over mastery or perfection. This positions the user as an experimenter rather than a professional.</li>
+              <li><strong>Code as Mark-Making:</strong> p5.js teaches that code is like drawing—it’s expressive, imperfect, and personal. One line creates a circle; another animates it. The library aligns coding with visual thinking, not logical rigidity.</li>
+              <li><strong>Community Language:</strong> Its documentation and examples use inclusive and plain language—avoiding jargon and featuring works by diverse artists.</li>
+              <li><strong>Representation by Participation:</strong> The p5.js showcase and contributor highlights deliberately center women, BIPOC, queer, and disabled creators—its aesthetic is not just in the visuals, but in who gets represented as a coder.</li>
+              <li><strong>Non-corporate Design Values:</strong> Its visual communication is non-commercial, feminist, and educational—inviting experimentation, not consumption.</li>
+            </ul>
+            <p>p5.js represents a visual philosophy of access: art made from code, but also from care, curiosity, and collective making.</p>
+          </div>
+          <div class="analysis-block">
+            <h3 class="analysis-title">Conclusion</h3>
+            <p>p5.js is not just a software library; it's a values-driven creative platform. Lauren Lee McCarthy has built a tool that redefines what it means to code, who gets to participate, and how technology can be shaped by care rather than competition.</p>
+            <ul>
+              <li><strong>Ontologically:</strong> it’s a browser-based creative coding framework with intentional values built into its structure.</li>
+              <li><strong>Contextually:</strong> it arises from feminist critique, educational activism, and resistance to Big Tech exclusion.</li>
+              <li><strong>Visually:</strong> it is soft, playful, and intentionally non-intimidating—echoing its philosophical commitment to equity and creativity.</li>
+            </ul>
+          </div>
+          <div class="analysis-block">
+            <h3 class="analysis-title">Why Documentation Does Reflect Feminist and Inclusive Values</h3>
+            <ul>
+              <li><strong>Who is it written for?</strong><br>
+                Traditional documentation often assumes the reader already understands programming. It uses jargon-heavy, terse, or even gatekeeping language. Feminist documentation—like that in p5.js—is intentionally:
+                <ul>
+                  <li>Clear and beginner-friendly</li>
+                  <li>Non-intimidating</li>
+                  <li>Designed to say: You belong here, even if you're new</li>
+                </ul>
+                <em>Example:</em> Instead of saying “returns a pointer to an object in memory,” p5.js says: “Returns a reference to the specified p5.TableRow”—which is much more accessible.
+              </li>
+              <li><strong>How is language used?</strong><br>
+                Language in documentation isn't neutral. It reflects the tone of the culture that produced it. Feminist approaches prioritize:
+                <ul>
+                  <li>Empathy in tone</li>
+                  <li>Avoiding aggressive metaphors (like “kill,” “abort,” “master/slave” — terms that are still found in some legacy docs)</li>
+                  <li>Clarity over cleverness</li>
+                </ul>
+              </li>
+              <li><strong>Whose contributions are made visible?</strong><br>
+                In p5.js, documentation is treated as a collaborative, community-driven process. That means:
+                <ul>
+                  <li>Contributors from marginalized backgrounds are encouraged, named, and thanked.</li>
+                  <li>Translation projects open the door for non-English speakers.</li>
+                  <li>Community members help shape what examples are included (and whose stories get told).</li>
+                </ul>
+              </li>
+              <li><strong>Access is power</strong><br>
+                Lauren Lee McCarthy has said that p5.js was designed so that people outside of traditional power structures in tech—such as women, BIPOC, LGBTQ+ folks, and disabled users—could enter creative coding on their own terms. Documentation is the front door to that access. If that door is locked or written in a foreign language (metaphorically), most people won’t come in.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-  <div class="section">
-    <h3>Criticisms</h3>
-    <table>
-      <tr>
-        <th>Title</th>
-        <th>Author</th>
-        <th>Year</th>
-        <th>Format</th>
-        <th>Audience</th>
-        <th>Source</th>
-      </tr>
-      <tr>
-        <td>Week 3: p5.js and Access</td>
-        <td>Critical Code Studies WG</td>
-        <td>2021</td>
-        <td>Forum Discussion</td>
-        <td>HCI, Accessibility Researchers</td>
-        <td><a href="https://wg.criticalcodestudies.com/index.php?p=%2Fdiscussion%2F120%2Fweek-3-p5-js-and-access-discussion-starter">CCS</a></td>
-      </tr>
-      <tr>
-        <td>Creative Coding on the Web in p5.js</td>
-        <td>Sara Rafatabadi</td>
-        <td>2024</td>
-        <td>Master’s Thesis</td>
-        <td>Educators, Web Devs</td>
-        <td><a href="https://www.diva-portal.org/smash/get/diva2%3A1319386/FULLTEXT01.pdf">DiVA Portal</a></td>
-      </tr>
-      <tr>
-        <td>Is p5.js Respected?</td>
-        <td>Reddit Users</td>
-        <td>2018</td>
-        <td>Forum Thread</td>
-        <td>Web Developers</td>
-        <td><a href="https://www.reddit.com/r/webdev/comments/ady3xq/is_p5js_respected/">Reddit</a></td>
-      </tr>
-    </table>
-  </div>
+      <!-- Section 3: Final Submission -->
+      <section id="final-submission" class="section">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="section-number">03</span>
+            Final Submission
+          </h2>
+          <p class="section-description">(To be completed)</p>
+        </div>
+      </section>
+    </div>
+  </main>
 
-  <div class="section">
-    <h3>Community Engagement</h3>
-    <table>
-      <tr>
-        <th>Title</th>
-        <th>Author</th>
-        <th>Year</th>
-        <th>Format</th>
-        <th>Audience</th>
-        <th>Source</th>
-      </tr>
-      <tr>
-        <td>Creative Coding Tools in JavaScript</td>
-        <td>CreativeApplications.Net</td>
-        <td>2020</td>
-        <td>Web Article Series</td>
-        <td>Artists, Technologists</td>
-        <td><a href="https://www.creativeapplications.net/tools/JavaScript/page/3/">Creative Apps</a></td>
-      </tr>
-    </table>
-  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Columbia University GSAPP</h4>
+          <p>Methods as Practices</p>
+        </div>
+        <div class="footer-section">
+          <p>&copy; 2025 Precedent Study</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-  <!-- Link to external JavaScript file -->
   <script src="script.js"></script>
 </body>
 </html>
